@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Punto 3 - Modelos de regresión &#8212; Segundo parcial de Machine Learning</title>
+    <title>Modelos de regresión de wind speed &#8212; Segundo parcial de Machine Learning</title>
   
   
   
@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -61,7 +61,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Default Probability Prediction" href="edabanco.html" />
-    <link rel="prev" title="PUNTO 1 - WIND SPEED" href="eda_windspeed.html" />
+    <link rel="prev" title="Análisis exploratorio de wind speed" href="eda_windspeed.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -180,8 +180,8 @@
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="eda_windspeed.html">PUNTO 1 - WIND SPEED</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#"><strong>Punto 3 - Modelos de regresión</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="eda_windspeed.html">Análisis exploratorio de wind speed</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Modelos de regresión de wind speed</a></li>
 <li class="toctree-l1"><a class="reference internal" href="edabanco.html">Default Probability Prediction</a></li>
 
 
@@ -325,7 +325,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Punto 3 - Modelos de regresión</h1>
+    <h1>Modelos de regresión de wind speed</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -367,8 +367,8 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="punto-3-modelos-de-regresion">
-<h1><strong>Punto 3 - Modelos de regresión</strong><a class="headerlink" href="#punto-3-modelos-de-regresion" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="modelos-de-regresion-de-wind-speed">
+<h1>Modelos de regresión de wind speed<a class="headerlink" href="#modelos-de-regresion-de-wind-speed" title="Link to this heading">#</a></h1>
 <p>En este ejercicio, nuestro objetivo es desarrollar un modelo predictivo para estimar la velocidad del viento horaria. Para abordar este problema, utilizaremos cuatro enfoques de regresión: <strong>K-Nearest Neighbors (KNN)</strong>, <strong>Regresión Lineal</strong>, <strong>Regresión Ridge</strong>, y <strong>Regresión Lasso</strong>. La predicción se realizará considerando tanto las diferentes ventanas temporales de pronóstico (7, 14, 21 y 28 días), como el ciclo horario completo de 24 horas de un día.</p>
 <p>A continuación, las librerías y módulos usados.</p>
 <div class="cell docutils container">
@@ -10040,7 +10040,7 @@ document.write(`
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">PUNTO 1 - WIND SPEED</p>
+        <p class="prev-next-title">Análisis exploratorio de wind speed</p>
       </div>
     </a>
     <a class="right-next"
